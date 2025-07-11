@@ -319,6 +319,19 @@
     </pluginRepository>
   </pluginRepositories>
 
+<distributionManagement>
+  <repository>
+    <id>nexusrepo</id>
+    <name>Releases</name>
+    <url>http://13.232.252.45:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexusrepo</id>
+    <name>Snapshots</name>
+    <url>http://13.232.252.45:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+
   <profiles>
     <profile>
       <id>m2e</id>
