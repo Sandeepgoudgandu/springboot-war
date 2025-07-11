@@ -283,17 +283,17 @@
 
   <repositories>
     <repository>
-      <id>spring-snapshots</id>
-      <name>Spring Snapshots</name>
-      <url>https://repo.spring.io/snapshot</url>
+      <id>nexusrepo</id>
+      <name>Snapshot Repository</name>
+      <url>http://13.232.252.45:8081/repository/maven-snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </repository>
     <repository>
-      <id>spring-milestones</id>
-      <name>Spring Milestones</name>
-      <url>https://repo.spring.io/milestone</url>
+      <id>nexusrepo</id>
+      <name>Release Repository</name>
+      <url>http://13.232.252.45:8081/repository/maven-releases/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
