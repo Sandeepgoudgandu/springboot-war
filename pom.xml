@@ -18,20 +18,6 @@
 
   <properties>
 
-
-<distributionManagement>
-  <repository>
-    <id>nexus-releases</id>
-    <name>Releases</name>
-    <url>http://13.127.110.230:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>nexus-snapshots</id>
-    <name>Snapshots</name>
-    <url>http://13.127.110.230:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
-</distributionManagement>
-
     <!-- Generic properties -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
