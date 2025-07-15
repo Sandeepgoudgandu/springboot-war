@@ -322,7 +322,7 @@
 <distributionManagement>
   <snapshotRepository>
     <id>nexusrepo</id>
-    <url>http://13.232.252.45:8081/repository/maven-snapshots/</url>
+    <url>http://65.2.54.211:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
@@ -382,16 +382,4 @@
       </build>
     </profile>
   </profiles>
-    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://65.2.54.211:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://65.2.54.211:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
