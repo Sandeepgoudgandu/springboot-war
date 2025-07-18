@@ -321,7 +321,7 @@
 
 <distributionManagement>
   <snapshotRepository>
-    <id>nexusrepo</id>
+    <id>nexusRepo</id>
     <url>http://3.108.66.166:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
